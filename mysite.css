@@ -478,39 +478,3 @@ header {
   text-align: center;
   padding: 50px;
 }
-
-.div1 {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  margin: 200px;
-  border: 2px solid red;
-}
-
-.div2 {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  margin: 200px;
-  background-color: blue;
-  /* transform: rotate(45deg);
-  transform-origin: top right; */
-}
-.div3 {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  margin: 200px;
-  border: 2px solid red;
-}
-
-.div4 {
-  border: 2px solid red;
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  /* margin: -200px; */
-  background-color: blue;
-  transform: rotate(45deg);
-  /* transform-origin: top right; */
-}
