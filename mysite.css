@@ -1,0 +1,516 @@
+/* core style */
+
+html {
+  scroll-behavior: smooth;
+  width: 100vw !important;
+}
+
+body {
+  position: absolute;
+  font-family: sans-serif;
+  background-color: #fcfdfd;
+  scroll-behavior: smooth;
+}
+
+.container {
+  /* display: inline-block; */
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.til {
+  /* top: 5px; */
+  z-index: 20;
+  display: inline-block;
+  width: 50px;
+  height: 58px;
+  margin-left: 30px;
+  /* position: fixed; */
+  /* position: absolute; */
+  /* margin: 100px 40px; */
+}
+
+.bosh {
+  background-color: cyan;
+  height: 55px;
+  width: 100vw;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  display: inline-block;
+}
+.til h4 {
+  padding-bottom: 1px;
+  display: inline;
+}
+.til h4 a {
+  text-align: center;
+  border-radius: 5px;
+  width: 40px;
+  height: 15px;
+  background-color: springgreen;
+  display: inline-block;
+  color: crimson;
+  padding: 0;
+  box-sizing: border-box;
+  border: 2px solid wheat;
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 10px;
+  /* margin-right: 15px; */
+}
+.til h4 a:hover {
+  background-color: rgb(19, 241, 130);
+  transform: scale(2, 2);
+}
+.til h4 {
+  margin: 0;
+}
+
+#olma {
+  display: none;
+  width: 100vw !important;
+  padding: 0;
+  margin: 0;
+}
+
+.menyu {
+  width: 100vw !important;
+  position: fixed;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  box-shadow: 0px 16px 0px rgb(0 0 0 /2%);
+  z-index: 10;
+}
+
+.bosh-harf {
+  text-transform: uppercase;
+}
+.clearfix {
+  clear: both;
+}
+
+/* Nav section */
+.harf {
+  margin-left: 30px;
+}
+.g {
+  color: deeppink;
+}
+
+.logo {
+  top: 2px;
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  font: 20px Tahoma;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+.logo2 {
+  display: inline-block;
+}
+
+.logo .harf > p {
+  display: inline-block;
+  margin: 3px;
+  background-color: white;
+}
+.r {
+  border-radius: 25%;
+  border: 2px solid green;
+  text-align: center;
+  vertical-align: middle;
+  color: blue;
+  padding: 2px;
+  margin-right: -50px;
+}
+.navigation {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navigation > ul {
+  margin: 0;
+}
+
+.nav2 {
+  display: inline-block;
+}
+
+.menu-element {
+  display: inline-block;
+  /* padding: 5px; */
+  vertical-align: middle;
+}
+header {
+  display: inline-block;
+  position: relative;
+}
+
+.menu-element > a {
+  color: rgb(81, 29, 226);
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-left: 25px;
+  margin-top: -10px;
+}
+
+.menu-element a:hover {
+  color: rgb(255, 0, 128);
+}
+
+.menu-element.active a {
+  color: rgb(255, 0, 128);
+}
+
+/* Main section */
+
+.main-section {
+  padding: 100px 30px;
+}
+
+.main-section > div {
+  width: 50%;
+  float: left;
+}
+
+.main-section-image {
+  text-align: right;
+}
+
+.salom,
+.about-subtitle,
+.about-description,
+.cv,
+.tugmacha {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  color: #797979;
+  line-height: 28px;
+}
+
+.men p {
+  display: inline-block;
+  text-transform: lowercase;
+  margin: 0 3px;
+}
+
+.men {
+  margin-top: 20px;
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #05364e;
+}
+
+.kasb,
+.about-title,
+.dilshod {
+  color: #05364e;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.tugmacha,
+.cv {
+  margin-top: 30px;
+  border: none;
+  background-color: mediumblue;
+  background-image: linear-gradient(to right, blue, red);
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 20px 40px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.tugmacha :hover {
+  background-position: right center;
+}
+
+.main-section-image img {
+  width: 400px;
+  height: 600px;
+  border-radius: 40%;
+  margin-top: -90px;
+}
+/* Statistic section */
+.statistics {
+  padding-top: 15px;
+}
+
+.stat-item {
+  width: 110px;
+  display: inline-block;
+  background-color: #f8faff;
+  text-align: center;
+  padding: 5px 10px;
+  margin-right: 30px;
+}
+
+.stat-number {
+  font-size: 27px;
+  margin-bottom: 5px;
+  color: blue;
+}
+
+.stat-title {
+  font-size: 20px;
+  color: #797979;
+  font-weight: 400;
+}
+
+.social-section {
+  /* color: #8FA1AA; */
+  font-size: 40px;
+  display: inline-block;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.social-section a .whatsup {
+  color: rgb(65, 225, 113);
+  margin: 0 40px 0 40px;
+}
+
+.social-section a .teleg {
+  color: rgb(65, 206, 225);
+}
+
+.social-section a .vkontakte {
+  color: rgb(65, 153, 225);
+}
+
+/* section about me */
+.flex {
+  margin-top: 300px;
+  display: flex;
+  /* position: absolute; */
+  flex-direction: reverse;
+}
+.flex > div {
+  width: 50%;
+  /* float: left; */
+  display: inline-block;
+}
+.cards > img {
+  height: 35%;
+}
+.cards > h4 {
+  height: 15%;
+}
+
+.cards > p {
+  height: 40%;
+}
+.cards > a {
+  height: 10%;
+}
+.about-image > img {
+  width: 400px;
+  height: 600px;
+  /* display: inline-block; */
+}
+/* .about-info {
+  display: inline-block;
+  position: absolute;
+  top: 100px;
+  left: 120%;
+} */
+.about-blur {
+  width: 320px !important;
+}
+
+.service-blur {
+  width: 590px !important;
+}
+
+.blur-line {
+  display: inline-block;
+  margin-left: 5px;
+  width: 250px;
+  height: 8px;
+  background-image: linear-gradient(to right, blue, red);
+  filter: blur(2px);
+  border-radius: 4px;
+  z-index: 1;
+  margin-bottom: 2px;
+}
+
+.about-info,
+.otziv {
+  padding: 150px 0 0 50px;
+  box-sizing: border-box;
+}
+
+.service-card div:hover {
+  background-color: rgb(179, 179, 212);
+  color: white;
+}
+/* /section about me */
+.overflow {
+  background-color: rgb(72, 27, 196);
+  border: 1px solid rgb(255, 0, 128);
+  width: 300px;
+  height: 150px;
+  overflow: auto;
+}
+/* service section */
+.services {
+  padding-top: 100px;
+}
+
+.cards {
+  display: inline-block;
+  width: 30%;
+  padding: 60px 30px;
+  background-color: #f8faff;
+  margin-right: 3%;
+  text-align: center;
+  box-sizing: border-box;
+  height: 700px;
+  cursor: pointer;
+}
+.card-link {
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+/* client's section */
+
+.clients {
+  margin-top: 100px;
+  display: inline-block;
+}
+
+.yulduz {
+  color: #ffd805;
+}
+
+.clients-items {
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.cl-kasbi {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 300;
+  color: #5b6d75;
+  margin-top: -15px;
+}
+/* .otziv{
+  box-sizing: border-box;
+ pad;
+} */
+.clients-items > div {
+  display: inline-block;
+  width: 50%;
+  /* float: left; */
+}
+.cl-title img {
+  width: 400px;
+  height: 600px;
+  border-radius: 40%;
+}
+/* client's section */
+/* nav {
+  display: inline-block;
+} */
+
+.footer-menu-item {
+  display: inline-block;
+}
+
+.footer-menu-item > li {
+  display: inline-block;
+}
+.footer-menu-item a {
+  display: inline-block;
+}
+.harf-logo {
+  display: inline-block;
+  margin-left: -15px;
+}
+.r-f {
+  border-radius: 25%;
+  border: 2px solid green;
+  text-align: center;
+  vertical-align: middle;
+  color: blue;
+  padding: 2px;
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #f8faff;
+  margin-left: -50px;
+  /* margin-top: 40px; */
+}
+.footer-logo {
+  display: block;
+  position: relative;
+  padding: 0;
+  font: 20px Tahoma;
+  font-weight: 700;
+
+  text-align: center;
+}
+
+.footer {
+  width: 100vw;
+  background-color: #797979;
+}
+.so-footer {
+  text-align: center;
+}
+.p {
+  text-align: center;
+  padding: 50px;
+}
+
+.div1 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin: 200px;
+  border: 2px solid red;
+}
+
+.div2 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin: 200px;
+  background-color: blue;
+  /* transform: rotate(45deg);
+  transform-origin: top right; */
+}
+.div3 {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin: 200px;
+  border: 2px solid red;
+}
+
+.div4 {
+  border: 2px solid red;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  /* margin: -200px; */
+  background-color: blue;
+  transform: rotate(45deg);
+  /* transform-origin: top right; */
+}
